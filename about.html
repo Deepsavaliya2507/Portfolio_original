@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | About</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section-global">
+        <div class="container animate-on-scroll">
+            <h5 class="text-primary fw-bold text-uppercase mb-3">Who I Am</h5>
+            <h1>About <span class="text-primary">Me</span></h1>
+            <p class="lead mb-4">Passionate developer bridging creativity and code.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#bio" class="btn btn-primary btn-lg">My Story</a>
+                <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- [UNIQUE CONTENT] Bio & Timeline -->
+    <section id="bio" class="container py-5">
+        <div class="row gx-lg-5 animate-on-scroll">
+            <!-- Left Column: Image & Bio -->
+            <div class="col-lg-5 mb-5 mb-lg-0">
+                <div class="text-center text-lg-start mb-4">
+                    <img src="https://via.placeholder.com/600x600" alt="Profile"
+                        class="img-fluid rounded-4 shadow-lg border border-secondary border-opacity-25 w-100 mb-4"
+                        style="max-width: 400px;">
+                </div>
+                <h2 class="mb-3">Brief <span class="text-primary">Bio</span></h2>
+                <p class="text-muted">
+                    I am a passionate Full Stack Developer with over 5 years of experience in building digital products.
+                    My journey began with a curiosity for how things work on the internet, which led me to dive deep
+                    into coding.
+                </p>
+                <p class="text-muted">
+                    I believe in clean, maintainable code and user-centric design. When I'm not coding, you can find me
+                    exploring new technologies,
+                    contributing to open-source, or enjoying a good cup of coffee.
+                </p>
+
+                <div class="mt-4">
+                    <a href="contact.html" class="btn btn-primary me-2">Hire Me</a>
+                    <a href="#" class="btn btn-outline-light"><i class="bi bi-download me-2"></i>Download CV</a>
+                </div>
+            </div>
+
+            <!-- Right Column: Timeline -->
+            <div class="col-lg-7">
+                <div class="animate-on-scroll delay-200">
+                    <h3 class="h4 mb-4 text-primary"><i class="bi bi-briefcase me-2"></i>Experience & Education</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">2024 - Present</span>
+                            <h5 class="mb-1">Senior Web Developer</h5>
+                            <p class="text-muted mb-2">Tech Solutions Inc. | New York, NY</p>
+                            <p class="small text-secondary">Leading the frontend team, architecting scalable web
+                                applications, and mentoring junior developers.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2022 - 2024</span>
+                            <h5 class="mb-1">Web Developer</h5>
+                            <p class="text-muted mb-2">Creative Agency | Remote</p>
+                            <p class="small text-secondary">Developed responsive websites for various clients, optimized
+                                site performance, and implemented SEO best practices.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2018 - 2022</span>
+                            <h5 class="mb-1">B.Sc. in Computer Science</h5>
+                            <p class="text-muted mb-2">University of Technology</p>
+                            <p class="small text-secondary">Graduated with honors. focused on Software Engineering and
+                                Web Technologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 2. Quick Highlights Section -->
+    <section class="highlights-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4 animate-on-scroll">
+                    <div class="highlight-card">
+                        <i class="bi bi-lightbulb highlight-icon"></i>
+                        <h4>Creative</h4>
+                        <p class="text-muted small">Thinking outside the box to solve complex problems.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll delay-100">
+                    <div class="highlight-card">
+                        <i class="bi bi-gear highlight-icon"></i>
+                        <h4>Technical</h4>
+                        <p class="text-muted small">Deep understanding of modern web technologies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-on-scroll delay-200">
+                    <div class="highlight-card">
+                        <i class="bi bi-people highlight-icon"></i>
+                        <h4>Collaborative</h4>
+                        <p class="text-muted small">Great team player with excellent communication skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Skills / Expertise Snapshot -->
+    <section class="skills-section">
+        <div class="container text-center animate-on-scroll">
+            <h2 class="mb-5">Technical <span class="text-primary">Skills</span></h2>
+
+            <div class="row justify-content-center mb-4">
+                <div class="col-md-8">
+                    <div class="skill-icon-grid mb-5">
+                        <div class="skill-icon-item"><i class="bi bi-filetype-html text-orange"></i>HTML5</div>
+                        <div class="skill-icon-item"><i class="bi bi-filetype-css text-primary"></i>CSS3</div>
+                        <div class="skill-icon-item"><i class="bi bi-filetype-js text-warning"></i>JavaScript</div>
+                        <div class="skill-icon-item"><i class="bi bi-bootstrap text-purple"></i>Bootstrap</div>
+                        <div class="skill-icon-item"><i class="bi bi-git text-danger"></i>Git</div>
+                        <div class="skill-icon-item"><i class="bi bi-github text-white"></i>GitHub</div>
+                        <div class="skill-icon-item"><i class="bi bi-code-slash text-info"></i>VS Code</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Process / Workflow Section -->
+    <section class="process-section">
+        <div class="container text-center">
+            <h2 class="mb-5">My <span class="text-primary">Process</span></h2>
+            <div class="row g-4">
+                <div class="col-md-3 animate-on-scroll">
+                    <div class="process-step">
+                        <div class="process-number">1</div>
+                        <h5>Research</h5>
+                        <p class="text-muted small">Gathering requirements and market analysis.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-on-scroll delay-100">
+                    <div class="process-step">
+                        <div class="process-number">2</div>
+                        <h5>Prototype</h5>
+                        <p class="text-muted small">Creating low and high fidelity wireframes.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-on-scroll delay-200">
+                    <div class="process-step">
+                        <div class="process-number">3</div>
+                        <h5>Develop</h5>
+                        <p class="text-muted small">Writing clean, semantic, and efficient code.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 animate-on-scroll delay-300">
+                    <div class="process-step">
+                        <div class="process-number">4</div>
+                        <h5>Launch</h5>
+                        <p class="text-muted small">Deployment, testing, and maintenance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container animate-on-scroll">
+            <h2 class="text-center mb-5">Peer <span class="text-primary">Reviews</span></h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-8">
+                    <div class="testimonial-card text-center">
+                        <div class="testimonial-quote">
+                            "One of the most dedicated developers I've had the pleasure of working with. Always eager to
+                            learn and improve."
+                        </div>
+                        <div class="testimonial-author justify-content-center">
+                            <img src="https://via.placeholder.com/50" alt="Colleague" class="author-avatar">
+                            <div class="text-start">
+                                <h6 class="mb-0 text-white">David Lee</h6>
+                                <small class="text-muted">Senior Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Call-To-Action (CTA) Section -->
+    <section class="cta-section">
+        <div class="container animate-on-scroll">
+            <h2>Let's work together?</h2>
+            <p class="lead mb-4">I'm currently available for freelance work and open to new opportunities.</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="projects.html" class="btn btn-primary btn-lg">View Projects</a>
+                <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Footer Section -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="mb-4">
+                <a href="#" class="social-icon"><i class="bi bi-github"></i></a>
+                <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:contact@example.com" class="social-icon"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+            <div class="mb-3">
+                <a href="index.html" class="text-muted text-decoration-none mx-2">Home</a>
+                <a href="projects.html" class="text-muted text-decoration-none mx-2">Projects</a>
+                <a href="about.html" class="text-muted text-decoration-none mx-2">About</a>
+                <a href="contact.html" class="text-muted text-decoration-none mx-2">Contact</a>
+            </div>
+            <p class="mb-0 text-muted">&copy; 2026 MyPortfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
